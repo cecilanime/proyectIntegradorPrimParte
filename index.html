@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectIntegraPrimeEntreg</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="width: 90%; margin: 0 auto;">
+    <header>
+            <div class="containerHeader">
+                <!-- <div class="logo" style="text-align: left;"> -->
+                    <h1 class="iconoHeader">
+                        <img src="./imagenes/Logo_Monococo-removebg-preview.png" alt="logo"> 
+                        Juguetería
+                    </h1>    
+                <!-- </div> -->
+                <div class="search">
+                    <input type="text" placeholder="Buscar...">
+                    <button><img class="search-icon" src="./imagenes/seach.png" alt="search"></button>
+                </div>
+                <div class="login">
+                    <button id="login-button" onclick="window.location.href='./pages/login.html'">Login</button>
+                </div> 
+            </div>
+         <nav>
+            <ul>
+                <li><a href="#" onclick="alert('Solo los usuarios logueados pueden acceder a la página de Alta.');">Alta</a></li>
+               <li><a href="./pages/nosotros.html">Nosotros</a></li>
+               <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+      
+   </header>
+      
+    <main>
+        <h2>¡Regalar un jueguete!</h2>
+        <h3>Es dar alegria &#128053;</h3>
+        <h3>"Para ejercer una influencia benefica entre los niños y niñas, es indispensable participar de sus alegrias" - Don Bosco.</h3>
+        <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <div class="card">
+                <div class="oferta">Oferta</div>
+                <figure><img src="./imagenes/Lego Batmobile1.png" alt="Lego_Batmobile1"></figure>
+                <div class="producto">Batmobile_lego</div>
+                <div class="precioviejo">$310.999</div>
+                <div class="precionuevo">$279.899</div>
+                <div class="cuota">Mismo precio en 6 cuotas de $46.649</div>
+                <button id="carrito" onclick="window.alert('Necesitas loguearte para poder comprar.')">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <div class="oferta">Oferta</div>
+                <figure><img src="./imagenes/Hot Wheels1.png" alt="packHotWheels"></figure>
+                <div class="producto">Pack Hot Wheels</div>
+                <div class="precioviejo">$29.999</div>
+                <div class="precionuevo">$28.499</div>
+                <div class="cuota">Mismo precio en 6 cuotas de $4.749,84</div>
+                <button id="carrito" onclick="window.alert('Necesitas loguearte para poder comprar.')">Agregar al carrito</button>
+            </div> 
+            <div class="card">
+                <div class="oferta">Oferta</div>
+                <figure><img src="./imagenes/volante para bebes .png" alt="VolanteparaBBs"></figure>
+                <div class="producto">Volante Con Actividades</div>
+                <div class="precioviejo">$49.999,00</div>
+                <div class="precionuevo">$39.999,20</div>
+                <div class="cuota">Mismo precio en 6 cuotas de $6.666,53</div>
+                <button id="carrito" onclick="window.alert('Necesitas loguearte para poder comprar.')">Agregar al carrito</button>
+            </div>
+            <div class="card">
+                <div class="oferta">Oferta</div>
+                <figure><img src="./imagenes/Mi Primera Cocina.png" alt="MiPrimeraCocina"></figure>
+                <div class="producto">Mi Primera Cocina</div>
+                <div class="precioviejo">$84.999</div>
+                <div class="precionuevo">$76.499</div>
+                <div class="cuota">Mismo precio en 6 cuotas de $12.749,83</div>
+                <button id="carrito" onclick="window.alert('Necesitas loguearte para poder comprar.')">Agregar al carrito</button>
+            </div> 
+            <div class="card">
+                <div class="oferta">Oferta</div>
+                <figure><img src="./imagenes/Peluche Luminoso1.png" alt="PelucheLuminoso"></figure>
+                <div class="producto">Peluche Luminoso</div>
+                <div class="precioviejo">$37.999</div>
+                <div class="precionuevo">$34.199</div>
+                <div class="cuota">Mismo precio en 6 cuotas de $5.699,83</div>
+                <button id="carrito" onclick="window.alert('Necesitas loguearte para poder comprar.')">Agregar al carrito</button>
+            </div> 
+        </div>
+    </main> 
+    <footer>
+        <nav>
+            <ul>
+                <li><img class="footer-img" src="../imagenes/camara_de_jugueteria_argentina.png"  alt="camara_de_jugueteria_argentina"></li>
+                <li><img class="footer-img" src="../imagenes/data_fiscal.png" alt="data_fiscal"></li>
+            </ul>
+            <ul>
+                <li><img src="./imagenes/camara.png"  alt="camara"></li>
+                <li><img src="./imagenes/call.png" alt="call"></li>
+                <i class="fa fa-whatsapp" style="font-size:92px; margin-top: 30px; margin-left: 20px;  color:rgb(105, 100, 100)"></i>
+                
+            </ul>
+        </nav>
+    </footer>  
+</body>
+</html>

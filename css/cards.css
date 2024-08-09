@@ -1,0 +1,63 @@
+
+.card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(241, 239, 239, 0.1);
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card figure {
+    margin: 0;
+}
+.card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card .oferta {
+    background-color: #ff4081;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    position: relative;
+    top: -10px;
+}
+.card .producto {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.card .precioviejo {
+    text-decoration: line-through;
+    color: #999;
+}
+.card .precionuevo {
+    color: #ff4081;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.card .cuota {
+    color: #4caf50;
+    font-size: 1em;
+}
+.card button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+.card button:hover {
+    background-color: #e64a19;
+}

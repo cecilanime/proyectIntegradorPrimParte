@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap');
+body {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    }
+    
+p {
+    color: rgb(95, 22, 95);
+    text-align: justify;
+    font-size: large;
+    line-height: 1.5em;
+    word-spacing: 1em;
+    padding: 10px;
+    font-weight: 100px;
+ 
+}
+
+.textoNosotros {
+    margin: 3% 10% 10% 5%;
+}
+
+h1 {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-variant: small-caps;
+  font-size: 30px;
+}
+h2 , h3 {
+    color: rgb(107, 53, 107);
+    text-align: center;
+}
+.icono {
+    display: flex;
+    align-items: center;
+}
+.icono img {
+    margin-right: 40px; 
+}
+
+nav {
+    background-color: rgb(209, 57, 209); 
+    padding: 0px 0; 
+  }
+
+  nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 20px;
+  }
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    padding: 0px 20px; 
+    display: block; 
+}
+
+.contacto {   
+    width: 100%; 
+    border: none;
+    padding: 10px; 
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}  
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kalnia Glaze", serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    
+  }
+
+.container button img {
+    width: 48px; 
+    height: 48px; 
+    justify-content: right;
+    right: 40px;
+    
+    
+    top: 20px;
+}
+
+div input{
+    padding: 18px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 3px solid;
+    outline: none;
+}
+
+nav footer-img{
+    padding: 0px;
+   
+    width: 150px;
+}
+nav  li  img {
+    padding: 10px;
+    
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.iconoHeader img.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.iconoHeader img {
+    margin-right: 20px;
+    max-height: 50px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 5px; 
+    font-size: 14px; 
+    width: 180px; 
+    margin-right: 0px; 
+}
+
+.search-icon {
+    width: 25px; 
+    height: auto;
+}
+
+.search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.login button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(209, 17, 167, 0.836);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
